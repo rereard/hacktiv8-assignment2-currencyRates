@@ -1,3 +1,5 @@
+This app will show you some currency rates based on USD using API from CurrencyFreaks
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
