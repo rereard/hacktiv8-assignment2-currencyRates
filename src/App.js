@@ -33,7 +33,7 @@ function App() {
     <div className='flex justify-center flex-col w-full h-screen items-center bg-orange-400 text-white'>
       <div className="mb-5">
         <input type="number" placeholder='1' min='1' onChange={(event) => {
-          if(event.target.value === ''){
+          if(event.target.value === '' || event.target.value < 1){
             setMultiplier(1)
           } else{
             setMultiplier(event.target.value)
